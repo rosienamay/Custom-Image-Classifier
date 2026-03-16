@@ -30,3 +30,10 @@
 ○ How can data augmentation improve your model?** <br>
 <i>💡The challenges I encountered is when I started training the my datasets because there are some images that didn't have the correct format of the image like "jpg, png" and TensorFlow detected it as problematic files so I had to identify every problematic files and convert it into required format using the Pillow library. <br>
 💡Data augmentation helps give your model extra practice with different examples like its angles so it performs better on new unseen data. </i> <br>
+
+5. Application
+   --
+**○ Suggest a real-world application for your trained model.
+○ How can this system be integrated into a mobile or web application?** <br>
+<i>💡Trained orchid species model can be used in a plant identification. Images trained can be taken for a system to identify what kind of species it is. This helps a gardener, students, and researchers quickly recognize different orchids. It can also support plant conservation by helping experts monitor  rare orchid species. <br>
+💡The trained orchid species model can be integrated into a mobile or web application by connecting it to the app's backend. Users can upload or capture an image of an orchid using their phone or computer. The image will then sent to the server where the trained model processes it and predicts the orchid species. This allows users to easily identify orchid species through a simple and user-friendly interface.</i> <br>
