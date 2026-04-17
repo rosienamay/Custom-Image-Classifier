@@ -37,3 +37,6 @@
 ○ How can this system be integrated into a mobile or web application?** <br>
 <i>💡Trained orchid species model can be used in a plant identification. Images trained can be taken for a system to identify what kind of species it is. This helps a gardener, students, and researchers quickly recognize different orchids. It can also support plant conservation by helping experts monitor  rare orchid species. <br>
 💡The trained orchid species model can be integrated into a mobile or web application by connecting it to the app's backend. Users can upload or capture an image of an orchid using their phone or computer. The image will then sent to the server where the trained model processes it and predicts the orchid species. This allows users to easily identify orchid species through a simple and user-friendly interface.</i> <br>
+
+
+# **❓Guide Questions (Student Explanation & Reflection)📝**
