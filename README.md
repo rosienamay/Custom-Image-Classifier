@@ -40,3 +40,6 @@
 
 
 # **❓Guide Questions (Student Explanation & Reflection)📝**
+**Visualization & Overfitting**
+1. What signs indicated overfitting in your first model? <br>
+2. How did data augmentation affect validation accuracy? <br>
