@@ -42,6 +42,6 @@
 # **❓Guide Questions (Student Explanation & Reflection)📝**
 **Visualization & Overfitting**
 1. What signs indicated overfitting in your first model? <br>
-<i>💡My first model indicated both accuracies high so there's no signs that indicates overfitting because the result shows good fit.
+<i>💡My first model indicated both accuracies high so there's no signs that indicates overfitting because the result shows good fit. </i>
 2. How did data augmentation affect validation accuracy? <br>
-<i>💡Data augmentation gives multiple result of angles of one image and it helps identify accuracy with possible high result of validation.
+<i>💡Data augmentation gives multiple result of angles of one image and it helps identify accuracy with possible high result of validation. </i>
