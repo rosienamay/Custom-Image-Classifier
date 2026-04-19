@@ -49,6 +49,21 @@
 
 **Model Improvement**
 --
-3. What is the purpose of dropout layers?
-<i>💡 It helps improve the reliability of neural networks by making them less overfitting.
-4. Why does data augmentation improve generalization?
+3. What is the purpose of dropout layers? <br>
+<i>💡 It helps improve the reliability of neural networks by making them less overfitting. <br>
+4. Why does data augmentation improve generalization? <br>
+<i>💡 Because its results provide multiple angles of the images.
+
+**Performance Comparison**
+--
+5. Compare accuracy before and after improvements. <br>
+<i>💡 Before the improvements, the accuracy is almost as close with each other but after improvements, the gap seemed to be very obvious and visible. <br>   
+6. Which technique contributed most to improvement? <br>
+<i>💡 The re-training of the model. <br>
+
+**Deployment & Application**
+--
+7. Why is saving the model important? <br>
+<i>💡 It's important so you'll have records of what you've changed and you won't lose the data with the changes you have made. <br>
+8. How can this model be deployed in a real-world system? <br>
+<i>💡 This helps improve and minimize difficulty in detection. <br>
