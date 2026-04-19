@@ -12,41 +12,43 @@
 
 2. Model Training
    --
-**○ What is the role of convolutional layers in image classification?
+**○ What is the role of convolutional layers in image classification? <br>
 ○ Why do we split data into training and validation sets?** <br>
 <i>💡The role of convolutional layers is they are the ones who see the image and they learn its features like the shapes, textures, etc., and help the model to effeciently recognize it. <br>
 💡Training set is used to teach the model while validation set is like a meeting with data the model hasn't seen before. By checking performance on the validation set, we can see if the model is truly learning the patterns or just overfitting the training data. Splitting data into training and validation sets is important because it prevents the model from just memorizing the examples it sees. </i> <br>
 
 3. Performance Analysis
    --
-**○ What accuracy did your model achieve?
+**○ What accuracy did your model achieve?<br>
 ○ How did the number of images affect the model’s performance?** <br>
 <i>💡accuracy: 0.9672 <br>
 💡The accuracy shows that the model had enough images to learn well in the dataset and achieve high validation accuracy. </i> <br>
 
 4. Critical Thinking
    --
-**○ What challenges did you encounter while using your own dataset?
+**○ What challenges did you encounter while using your own dataset? <br>
 ○ How can data augmentation improve your model?** <br>
 <i>💡The challenges I encountered is when I started training the my datasets because there are some images that didn't have the correct format of the image like "jpg, png" and TensorFlow detected it as problematic files so I had to identify every problematic files and convert it into required format using the Pillow library. <br>
 💡Data augmentation helps give your model extra practice with different examples like its angles so it performs better on new unseen data. </i> <br>
 
 5. Application
    --
-**○ Suggest a real-world application for your trained model.
+**○ Suggest a real-world application for your trained model. <br>
 ○ How can this system be integrated into a mobile or web application?** <br>
 <i>💡Trained orchid species model can be used in a plant identification. Images trained can be taken for a system to identify what kind of species it is. This helps a gardener, students, and researchers quickly recognize different orchids. It can also support plant conservation by helping experts monitor  rare orchid species. <br>
 💡The trained orchid species model can be integrated into a mobile or web application by connecting it to the app's backend. Users can upload or capture an image of an orchid using their phone or computer. The image will then sent to the server where the trained model processes it and predicts the orchid species. This allows users to easily identify orchid species through a simple and user-friendly interface.</i> <br>
 
 
 # **❓Guide Questions (Student Explanation & Reflection)📝**
-**Visualization & Overfitting**
+**Visualization & Overfitting** 
+--
 1. What signs indicated overfitting in your first model? <br>
 <i>💡My first model indicated both accuracies high so there's no signs that indicates overfitting because the result shows good fit. </i>
 2. How did data augmentation affect validation accuracy? <br>
 <i>💡Data augmentation gives multiple result of angles of one image and it helps identify accuracy with possible high result of validation. </i> <br>
 
 **Model Improvement**
+--
 3. What is the purpose of dropout layers?
 <i>💡 It helps improve the reliability of neural networks by making them less overfitting.
 4. Why does data augmentation improve generalization?
