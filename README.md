@@ -20,7 +20,7 @@
 3. Performance Analysis
    --
 **○ What accuracy did your model achieve?** <br>
-💬Answer: Accuracy = 0.9672 <br>
+💬Answer: Accuracy = 0.9672 <br><br>
 **○ How did the number of images affect the model’s performance?** <br>
 💬Answer: The accuracy shows that the model had enough images to learn well in the dataset and achieve high validation accuracy. <br>
 
